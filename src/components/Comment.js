@@ -2,15 +2,15 @@ import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
 export const Comment = ({ comment }) => {
-    let [name, setName] = React.useState(comment.comment);
-    let [comments, setComments] = React.useState([]);
+    let [name, setName] = useState(comment.comment);
+    let [comments, setComments] = useState([]);
 
 
 
     const getData = async () => {
         const res = await axios.get(`https://cors-anywhere.herokuapp.com/https://cupcake-backend.herokuapp.com/cupcakeShop/v1/comments/`)
         // comments = res.data;
-        setComments([res.data]);
+        setComments(res.data);
         let reversedComments = comments.map(comment => comment).reverse();
         setComments(reversedComments);
 
