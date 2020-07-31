@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.nav-item {
+  color: white;
+}
+#nav-item {
+  color: white;
+}
+.parallax {
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.contact{
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  text-align: center;
+  justify-self: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  
+}
+
+.custom-toggler .navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler-icon {
+  color: white;
+}
+
+.collapse navbar-collapse {
+  color: white;
+}
+
+#welcome {
+  color: white;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  font-size: 40px;
+  text-align: center;
+  justify-self: center;
+}
+
+#sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+
+.wrapper{
+  margin-top: 55px;
+}
+
+.card-margin-top{
+margin-top: 80px;
+}
+
+p{
+  text-align: center;
+}
+
+.text-black{
+  color: 'black';
+}
+
+#create-button {
+  background-color: #343a40;
+  color: white;
+}
+
+#delete-button {
+  background-color: #343a40;
+  color: white;
+}
+
+li{
+  list-style: none;
+}
+
+.card-colors{
+  background-color: #343a40;
+  color: white;
+}
+
+.comment{
+    margin: 0 auto;
+}
+
+.new-comment-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
